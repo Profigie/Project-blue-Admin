@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+ * {  
+    box-sizing: border-box;
+} 
+
+.header {
+    position: absolute;
+    height: 44px;
+    width: 100%;
+    background-color: turquoise;
+    
+}
+ h1{
+    font-size: 30px;
+    color:  #424949;
+    font-family: 'Open Sans';
+    margin-left: 215px;
+}
+.header a{
+    color: #424949;
+}
+
+.side-nav {
+    position: absolute;
+    width: 100% 200px;
+    background-color: #424949;
+    height: 100vh;
+    z-index: 3;
+    padding-top: 44px;
+}
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.side-nav ul li{
+    padding: 10px 10px;
+    border-bottom: 1px solid #333;
+    text-align:  left center;
+    }
+.side-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.side-nav ul li i {
+    color: turquoise;
+    font-size:16px;
+}
+
+.side-nav ul li span:nth-child(2) {
+        display: inline;
+    }
+
+    
+.main-content {
+        width: auto;
+        height: 100%;
+        background-image: url("reports.jpeg");
+        padding-top: 50px;
+    }
+.main-content h2 {
+        color: #fff;
+        margin-left: 200px;
+        padding: 15px;
+    }
+
+
+footer {
+    background-color:turquoise;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    color:  #424949;
+    text-align: center;
+    font-family: bold
+}
+footer .col {
+    color:   #424949;
+}
+footer a:link{text-decoration:none;
+              color:  #424949;
+          } 
